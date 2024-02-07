@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gia's Kitchnette</title>
+
+  <!--Custom js links-->
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!--Custom css links-->
+  <link rel="stylesheet" type="text/css" href="home.css">
+    
+  <!--Custom box and icon links-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+ 
+  <!--Custom Font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Header Design start-->
+<header>
+    <a href="home.html" class="logo"><img src="background_logo2.png" class="pic-logo">Gia's<span>Kitchnette</span></a>
+  <nav class="navbar">
+    <ul>
+      <li class="dropdown">
+        <button>About ▼</button>
+        <div class="content-1">
+          <a href="aboutus.html">About Us</a>
+          <a href="location.html">Our Location</a>
+          <a href="reviews.html">Reviews</a>
+          </div>
+          </li>
+      <li class="dropdown">
+        <button>Delivery ▼</button>
+        <div class="content-1">
+            <a href="https://food.grab.com/ph/en/">Grabfood</a>
+            <a href="https://www.foodpanda.ph/">Foodpanda</a>
+            </div>
+          </li>
+      <li class="dropdown">
+        <button>Contact ▼</button>
+        <div class="content-1">
+            <a href="contactus.html">Contact Us</a>
+            </div>
+          </li>
+      </ul>
+  </nav>
+  <div class="icons">
+    <a href="#"></a>
+    <a href="#"><i class="fas fa-search" id="search-icon"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100083321291974"><i class="ri-facebook-fill"></i></a>
+    <a href="#"><i class="ri-instagram-line"></i></a>
+    <a href="#"><i class="ri-twitter-line"></i></a>
+    <a href="#"><i class="fas fa-bars" id="menu-bars"></i></a>
+</div>
+</header>
+<!--Header Design end-->
+
+<!--search form starts-->
+<form action="" id="search-form">
+  <input type="search" placeholder="search here..." name="" id="search-box">
+  <label for="search-box" class="ri-search-line"></label>
+  <i class="fas fa-times" id="close"></i>
+</form>
+<!--search form ends-->
+
+<!--home section starts-->
+<section class="home" id="home">
+  <div class="swiper-container home-slider">
+      <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special dish</span>
+                <h3>Bacon & Cheese Burger</h3>
+                <p>Indulge in the ultimate symphony of flavor with our Bacon and Cheese Burger! 
+                  Picture this: succulent, juicy beef patty grilled to perfection, nestled between 
+                  layers of melted cheese and topped with crispy, smoky bacon. Making people happy through great burger </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                  <img src="food_1jpg.jpg" alt="">
+              </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>Cheesy Bacon Pizza</h3>
+              <p>our sizzling sensation, the Cheesy Bacon Pizza! Immerse yourself in a symphony of flavors
+                 as molten cheese meets crispy bacon, creating a culinary masterpiece that'll make your taste 
+                  dance. </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+                <img src="food_2.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>our special dish</span>
+            <h3>Sushi Set-A</h3>
+            <p>Dive into the exquisite world of flavors with our Sushi Set-A, a culinary journey that takes
+               your taste buds on a tantalizing adventure! Immerse yourself in the artful craftsmanship of hand-rolled sushi, 
+               meticulously prepared with the finest ingredients to create a symphony of taste and texture</p>
+            <a href="#" class="btn">order now </a>
+          </div>
+          <div class="image">
+              <img src="food_3.jpg" alt="">
+          </div>
+      </div>
+
+      <div class="swiper-slide slide">
+        <div class="content">
+          <span>our special dish</span>
+          <h3>Sushi Set-B</h3>
+          <p>Savor the artistry of our hand-rolled sushi, where the finest ingredients come together in perfect harmony. 
+            From the delicate balance of sashimi to the inventive combinations of our specialty rolls, every piece is a 
+            testament to our commitment to culinary excellence</p>
+          <a href="#" class="btn">order now </a>
+        </div>
+        <div class="image">
+            <img src="food_4.jpg" alt="">
+        </div>
+    </div>
+      </div>
+      <div class="swiper-pagination"></div>
+  </div>
+      
+</section>
+<!--home section ends-->
+
+
+
+<!--dishes section starts-->
+<section class="dishes" id="dishes">
+    <h3 class="sub-heading">our dishes</h3>
+    <h1 class="heading">popular dishes</h1>
+
+<div class="box-container">
+  <div class="box">
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-eye"></a>
+    <img src="burger_1.png" alt="">
+    <h3>Bacon & Cheese</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span>₱80>00</span>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-eye"></a>
+      <img src="burger_2.png" alt="">
+      <h3>Cheese & Egg</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₱60.00</span>
+          <a href="#" class="btn">add to cart</a>
+      </div>
+
+      <div class="box">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-eye"></a>
+        <img src="burger_3.png" alt="">
+        <h3>Classic Cheese</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>₱50.00</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="burger_4.png" alt="">
+          <h3>Ham & Cheese</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span>₱70.00</span>
+              <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="burger_5.png" alt="">
+            <h3>Spam & Egg</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>₱120.00</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+              <img src="pizza_1.png" alt="">
+              <h3>Cheesy Bacon</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <span>₱170.00</span>
+                  <a href="#" class="btn">add to cart</a>
+              </div>
+
+              <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="pizza_2.png" alt="">
+                <h3>Cheesy Beef</h3>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱170.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                  <a href="#" class="fas fa-heart"></a>
+                  <a href="#" class="fas fa-eye"></a>
+                  <img src="pizza_3.png" alt="">
+                  <h3>Ham & Cheese</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                      <span>₱135.00</span>
+                      <a href="#" class="btn">add to cart</a>
+                  </div>
+  </div>
+</section>
+<!--dishes section ends-->
+
+<!--about section start-->
+<section class="about" id="about">
+  <h3 class="sub-heading">about us</h3>
+  <h1 class="heading">why choose us?</h1>
+  <div class="row">
+      <div class="image">
+        <img src="background_logo.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Best for in the country</h3>
+        <p>All the ingredients here are not only locally sourced, but also picked for 
+        maximum flavor.</p>
+        <p>The food is cooked to give customers both exciting flavor to tourists, 
+        and nostalgic and cozy feelings for locals.</p>
+          <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>free delivery</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>easy payment</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 service</span>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+<!--about section ends-->
+
+<!--menu section starts-->
+<section class="menu" id="menu">
+  <h3 class="sub-heading">our menu</h3>
+  <h1 class="heading">today's speciality</h1>
+
+     <div class="box-container">
+
+          <div class="box">
+
+              <div class="image">
+                  <img src="burger_1.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Bacon & Cheese</h3>
+                  <p>This Chili Pepper, wrapped in lumpia can be filled with a variety of fillings, 
+                  ranging from either beef, pork, chicken, tuna, or a combination of the four! 
+                  Perfect for an appetizer!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱80.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="meal_1.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Kimchi Fried Rice</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱55.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="burger_2.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Cheese & Egg</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱60.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="burger_4.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Ham & Cheese</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱70.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="sidedish_3.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Enoki Rolls</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱50.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="sidedish_4.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Fish Cake</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱35.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="sidedish_5.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Tteok-bokki in cup</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱40.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="sidedish_6.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Tteok-bokki on stick</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱50.00</span>
+          </div>
+        </div>
+
+        <div class="box">
+              <div class="image">
+                  <img src="burger_5.png" alt="">
+                  <a href="#" class="fas fa-heart"></a>
+              </div>
+              <div class="content">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <h3>Spam & Egg</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Inventore fuga dicta quas incidunt, ab, facilis explicabo eveniet at nostrum, 
+                    laborum earum! Ex placeat totam quidem, in repellendus laudantium harum natus!</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">₱120.00</span>
+          </div>
+        </div>
+     
+  </div>
+</section>
+<!--menu section ends-->
+
+<!--review section starts-->
+<section class="review" id="review">
+  <h3 class="sub-heading">customer's review</h3>
+  <h1 class="heading">what there say</h1>
+            <div class="swiper-container review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+
+                      <i class="fas fa-quote-right"></i>
+                      <div class="user-info">
+                        <div class="user">
+                            <img src="review_profile_1.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Fitzfrancis lledo</h3>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>The Classic Beef Burger at Gia's Kitchnette is a true delight. 
+                          Juicy, flavorful, and perfectly cooked, this burger is everything 
+                          you want in a classic burger. The bun is soft yet sturdy, and the 
+                          toppings are fresh and plentiful. The combination of lettuce, tomato, 
+                          onion, and melted cheese complements the beef patty beautifully. 
+                          It's a must-try for burger enthusiasts.</p>
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                      <i class="fas fa-quote-right"></i>
+                      <div class="user-info">
+                        <div class="user">
+                            <img src="review_profile_2.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Nelvin San Pedro</h3>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p> If you're looking for a burger with a gourmet twist, look no further 
+                          than Gia's Kitchnette. Their Gourmet Burger is a culinary masterpiece. Made 
+                          with premium Angus Beef, caramelized onions, 
+                          and arugula, each bite is a symphony of flavors. The beef is cooked to 
+                          perfection, juicy and tender, and the truffle cheese adds a luxurious touch. 
+                          It's a bit pricey, but worth every penny for the quality and taste.</p>
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                      <i class="fas fa-quote-right"></i>
+                      <div class="user-info">
+                        <div class="user">
+                            <img src="review_profile_3.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Mark Daniel<h3></h3>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Gia's Kitchnette the best Margherita Pizza in town. 
+                          The crust is thin and crispy, the tomato sauce is flavorful without being overwhelming, 
+                          and the fresh basil leaves add a fragrant herbal note. The mozzarella cheese is perfectly 
+                          melted and gooey, tying everything together beautifully. It's a simple yet classic pizza 
+                          done right.</p>
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                      <i class="fas fa-quote-right"></i>
+                      <div class="user-info">
+                        <div class="user">
+                            <img src="review_profile_4.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Jerry Langit</h3>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>If you're a carnivore at heart, the meat lover here at Gia's Kitchnette is sure to satisfy 
+                          your cravings. Loaded with pepperoni, sausage, bacon, and ham, every bite is packed with 
+                          savory goodness. The crust is thick and chewy, providing the perfect base for the generous 
+                          toppings. It's a hearty and indulgent pizza that's perfect for sharing with friends or 
+                          devouring all by yourself.</p>
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+
+                      <i class="fas fa-quote-right"></i>
+                      <div class="user-info">
+                        <div class="user">
+                            <img src="review_profile_5.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Javerielle Flores</h3>
+                                <div class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Even meat lovers won't be able to resist the Vegetarian Supreme Pizza at Gia's Kitchnette. 
+                          This pizza is loaded with a colorful array of fresh veggies, including bell peppers, onions, 
+                          mushrooms, olives, and tomatoes. The combination of flavors and textures is simply unbeatable. 
+                          The crust is crispy on the outside and soft on the inside, providing the perfect canvas for the 
+                          delicious toppings. It's a healthy and satisfying option for pizza lovers of all kinds.</p>
+                    </div>
+                    </div>
+
+            </div>
+        </div>
+</section>
+<!--review section ends-->
+
+<!--order section starts-->
+<section class="order" id="order">
+  <h3 class="sub-heading">order now</h3>
+  <h1 class="heading">free and fast</h1>
+
+  <form action="">
+
+          <div class="inputBox">
+              <div class="input">
+                  <span>your name</span>
+                  <input type="text" placeholder="enter your name">
+              </div>
+              <div class="input">
+                  <span>your number</span>
+                  <input type="number" placeholder="enter your number">
+              </div>
+          </div>
+          <div class="inputBox">
+              <div class="input">
+                  <span>your order</span>
+                  <input type="text" placeholder="enter food name">
+              </div>
+              <div class="input">
+                  <span>additional food</span>
+                  <input type="test" placeholder="extra with food">
+              </div>
+          </div>
+          <div class="inputBox">
+              <div class="input">
+                  <span>how much</span>
+                  <input type="number" placeholder="how many orders">
+              </div>
+              <div class="input">
+                  <span>date and time</span>
+                  <input type="datetime-local">
+              </div>
+          </div>
+          <div class="inputBox">
+              <div class="input">
+                  <span>your address</span>
+                  <textarea name="" placeholder="enter your address" id="" cols="30" rows="10">
+                  </textarea>
+              </div>
+              <div class="input">
+                  <span>your message</span>
+                  <textarea name="" placeholder="enter your message" id="" cols="30" rows="10">
+                  </textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn">
+  </form>
+</section>
+<!--order section ends-->
+
+<!--footer section start-->
+<section class="footer">
+
+  <div class="box-container">
+        <div class="box">
+              <h3>locations</h3>
+              <a href="#">Lubao, Pampanga, Philippines</a>
+
+        </div>
+
+        <div class="box">
+              <h3>quick links</h3>
+              <a href="home.html">home</a>
+              <a href="aboutus.html">about us</a>
+              <a href="contactus.html">contact us</a>
+              <a href="location.html">our location</a>
+              <a href="reviews.html">reviews</a>
+        </div>
+
+        <div class="box">
+              <h3>contact info</h3>
+              <a href="#">(+63) 0945 723 9463</a>
+              <a href="#">(+63) 0916 556 8752</a>
+              <a href="#">Giaskitchenette@gmail.com</a>
+              <a href="#">Giaskitchenette@outlook.com</a>
+              <a href="#">Sta. Cruz Lubao, Pampanga</a>
+
+        </div>
+
+        <div class="box">
+              <h3>follow us</h3>
+              <a href="https://www.facebook.com/profile.php?id=100083321291974">facebook</a>
+              <a href="#">instagram</a>
+              <a href="#">twitter</a>
+              <a href="#">snapchat</a>
+              <a href="#">tiktok</a>
+
+        </div>
+  </div>
+  <div class="credit">copyright @ 2024 by<span>Palestine designer</span></div>
+</section>
+<!--footer section ends-->
+
+<!--Loader starts-->
+<div class="loader-container">
+    <img src="loader_1.gif" alt="">
+</div>
+<!--Loader ends-->
+
+<!--Custom JS Link-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="home.js"></script>
+
+
+</body>
+</html>
